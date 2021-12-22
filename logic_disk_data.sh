@@ -1,4 +1,6 @@
 
+#yum install lvm2
+
 pvcreate /dev/vdb
 
 vgcreate vg_log /dev/vdb
